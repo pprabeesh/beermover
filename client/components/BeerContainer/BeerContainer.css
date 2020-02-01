@@ -1,0 +1,24 @@
+.item {
+  margin: 10px;
+  color: #151515;
+  min-height: 20rem;
+  min-width: 20rem;
+  background-color: #74a57f;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.data {
+  margin: 0;
+  padding: 2%;
+  display: inline-block;
+  width: 100%;
+}
+
+.notify {
+  background-color: hotpink;
+}

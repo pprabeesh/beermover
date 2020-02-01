@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: start;
+  background-color: #077187;
+  font-family: sans-serif;
+}
