@@ -18,7 +18,11 @@ const Dashboard = () => {
   return (
     <div className="container">
       {CONTAINERS.map(container => (
-        <BeerContainer container={container} currentTemps={temp} />
+        <BeerContainer
+          container={container}
+          currentTemps={temp}
+          key={`cont_${container.name}`}
+        />
       ))}
     </div>
   );
