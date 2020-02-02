@@ -12,4 +12,9 @@ npm run dev
 Created using simple webpack dev server and express server  
 Socket.io is used for real time data fectching from server  
 Polling in server is done at 1 sec intervals and temperature data for all containers is sent in one push  
-If temperature goes outside recommended range then color of container changes to notify user  
+If temperature goes outside recommended range then color of container changes to notify user
+
+## Tests
+
+npm run test  
+npm run test.watch
