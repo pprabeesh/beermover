@@ -14,7 +14,12 @@ Socket.io is used for real time data fectching from server
 Polling in server is done at 1 sec intervals and temperature data for all containers is sent in one push  
 If temperature goes outside recommended range then color of container changes to notify user
 
-## Tests
+## Unit Tests
 
 npm run test  
 npm run test.watch
+
+## E2E test
+
+npm run dev  
+npm run e2e
